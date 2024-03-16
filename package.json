@@ -1,0 +1,29 @@
+{
+  "name": "mvc-techblog",
+  "version": "1.0.0",
+  "description": "MVC tech blog for coding class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourylime/MVC-TechBlog.git"
+  },
+  "author": "Emily Kline",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "bugs": {
+    "url": "https://github.com/sourylime/MVC-TechBlog/issues"
+  },
+  "homepage": "https://github.com/sourylime/MVC-TechBlog#readme"
+}
