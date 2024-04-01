@@ -1,6 +1,4 @@
-const User = require('./User');
-const { Project, Comment } = require('./Project');
-
+const { User, Project, Comment } = require('./models');
 
 User.hasMany(Project, {
   foreignKey: 'user_id',
@@ -14,5 +12,3 @@ Project.belongsTo(User, {
 Comment.belongsTo(User, {
   foreignKey: 'user_id'
 });
-
-module.exports = { User, Project, Comment };
